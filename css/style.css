@@ -1,0 +1,329 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.award-winning {
+    color: red;
+}
+
+.btn-cont {
+    background-color: #ff0055;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cont:hover {
+    background-color: #cc0044;
+}
+
+/* Modal specific styles */
+.modal-content {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-check-input {
+    margin-top: 0.3rem;
+}
+
+.form-check-label {
+    margin-left: 1.25rem;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.btn-contact {
+    background-color: #ff0055;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn-contact:hover {
+    background-color: #cc0044;
+}
+
+/* What We Do section styles */
+.what-we-do-section {
+    margin-top: 50px;
+}
+
+.what-we-do {
+    color: red;
+}
+
+.what-we-do-section h2 {
+    font-weight: bold;
+}
+
+/* Carousel and cards */
+.carousel-item {
+    padding: 20px 0;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover{
+    border: 1px solid red;
+}
+
+.card-img-top {
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-read-more {
+    background-color: white;
+    color: #ff0055;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-read-more:hover {
+    background-color: #ddd;
+}
+
+.card-body {
+    background-color: #ff0055;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btn-read-more {
+    background-color: white;
+    color: #ff0055;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-read-more:hover {
+    background-color: #ddd;
+}
+
+.service-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-img-top {
+    transition: opacity 0.3s ease;
+    height: 400px;
+    width: 350px;
+}
+
+.card-body.red-card {
+    display: none;
+    background-color: #ff0055;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.service-card:hover .card-img-top {
+    opacity: 0;
+}
+
+.service-card:hover .card-body.red-card {
+    display: block;
+    opacity: 1;
+}
+
+.btn-read-more {
+    background-color: white;
+    color: #ff0055;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-read-more:hover {
+    background-color: #cc0044;
+    color: white;
+}
+
+/* Carousel indicators */
+.custom-indicators {
+    position: absolute;
+    transform: translateX(-50%);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    bottom: auto;
+}
+
+.custom-indicators li {
+    background-color: #ddd;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-indicators li.active,
+.custom-indicators li:hover {
+    background-color: #ff0055;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 0;
+}
+
+/* Our Project section styles */
+.project-title {
+    color: red;
+}
+
+.info-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.info-box.active {
+    background-color: #ff0055;
+    color: white;
+}
+
+.info-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 14px;
+}
+
+/* OUR COMPANY GROWTH Section Styles */
+.company-growth-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.experts-growths {
+    color: red;
+}
+
+.growth-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.growth-card:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+}
+
+.growth-card .icon-heart,
+.growth-card .icon-clock,
+.growth-card .icon-check,
+.growth-card .icon-trophy {
+    font-size: 2rem;
+    color: red;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.growth-card h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.growth-card p {
+    font-size: 1rem;
+    color: #777;
+}
