@@ -1,5 +1,5 @@
 # Fyle
-The assignment has to be done in HTML, CSS and Javascript.
+The assignment has to be done in HTML, CSS, Javascript and Bootstrap.
 
 Website Link:-
 https://anuska23.github.io/Fyle/
